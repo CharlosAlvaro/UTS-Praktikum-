@@ -1,0 +1,9 @@
+void main() {
+    Perkalian();
+    Perkalian(parameter1:5);
+    Perkalian(parameter2:3);
+    Perkalian(parameter1:4,parameter2:8);
+}
+Void Perkalian({int parameter1=1,int parameter2=1}){
+    print("Hasil Kali ${parameter1*parameter2}");
+}
